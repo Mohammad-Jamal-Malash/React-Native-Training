@@ -19,7 +19,7 @@ const Home = ({navigation}:HomeProps) => {
       // }}
 
       // Another way using 'push'
-      onPress={()=> navigation.push('Details',{productID:'86'})}
+      onPress={()=> navigation.push('Details',{productID:'86 '})}
       />
 
     </View>
