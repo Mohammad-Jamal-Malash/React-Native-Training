@@ -5,7 +5,7 @@ type ProductProps = PropsWithChildren<{
     product:Product
 }>
 
-const productItem = ({product}:ProductProps) => {
+const ProductItem = ({product}:ProductProps) => {
   return (
     <View style = {styles.container}>
       <Image 
@@ -44,7 +44,7 @@ const productItem = ({product}:ProductProps) => {
   )
 }
 
-export default productItem
+export default ProductItem
 
 const styles = StyleSheet.create({
     container: {
